@@ -42,7 +42,7 @@ jobs:
             ghcr.io/${{ github.repository_owner }}/navwebx:sevalla
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
-            org.opencontainers.image.description=Websocket Server
+            org.opencontainers.image.description=Navigation Website
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
           cache-to: type=gha,mode=max
